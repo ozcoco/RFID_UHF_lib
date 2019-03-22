@@ -1,7 +1,8 @@
 package org.oz.uhf.base;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
+
+import androidx.annotation.Nullable;
 
 
 /**

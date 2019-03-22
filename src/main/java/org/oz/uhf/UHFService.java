@@ -1,9 +1,6 @@
 package org.oz.uhf;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.annotation.WorkerThread;
 
 import org.oz.uhf.base.DataCallback;
 import org.oz.uhf.base.DataStatefulCallback;
@@ -14,6 +11,10 @@ import org.oz.uhf.emtity.Tag;
 import org.oz.uhf.exception.NotSupportWordException;
 
 import java.util.List;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.WorkerThread;
 
 
 /**

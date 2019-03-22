@@ -1,7 +1,7 @@
 package org.oz.uhf.base;
 
 
-import android.support.annotation.WorkerThread;
+import androidx.annotation.WorkerThread;
 
 /**
  * @Name DataCallback.java

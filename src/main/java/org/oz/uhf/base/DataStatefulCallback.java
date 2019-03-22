@@ -1,8 +1,8 @@
 package org.oz.uhf.base;
 
 
-import android.support.annotation.AnyThread;
-import android.support.annotation.Nullable;
+import androidx.annotation.AnyThread;
+import androidx.annotation.Nullable;
 
 /**
  * @Name DataCallback.java

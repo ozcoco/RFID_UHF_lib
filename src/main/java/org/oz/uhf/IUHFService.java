@@ -1,9 +1,6 @@
 package org.oz.uhf;
 
 
-import android.support.annotation.NonNull;
-import android.support.annotation.WorkerThread;
-
 import org.oz.uhf.base.DataCallback;
 import org.oz.uhf.base.DataStatefulCallback;
 import org.oz.uhf.base.ILifecycle;
@@ -14,6 +11,9 @@ import org.oz.uhf.emtity.Tag;
 import org.oz.uhf.exception.NotSupportWordException;
 
 import java.util.List;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.WorkerThread;
 
 public interface IUHFService extends ILifecycle {
 

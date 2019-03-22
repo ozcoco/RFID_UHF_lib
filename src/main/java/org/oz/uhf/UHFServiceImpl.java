@@ -1,9 +1,6 @@
 package org.oz.uhf;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.annotation.WorkerThread;
 import android.util.ArrayMap;
 
 import com.uhf.scanlable.UHfData;
@@ -20,6 +17,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.WorkerThread;
 import cn.pda.serialport.Tools;
 
 public class UHFServiceImpl implements IUHFService {
