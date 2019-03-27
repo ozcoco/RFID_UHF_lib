@@ -34,6 +34,11 @@ public class UHFService implements IUHFService {
         uhfService = UHFServiceImpl.newInstance();
     }
 
+    @Override
+    public boolean isConnected() {
+        return uhfService.isConnected();
+    }
+
     /**
      * @Name read
      * @Params [mem,    指定存储区

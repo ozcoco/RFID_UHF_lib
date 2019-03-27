@@ -79,6 +79,11 @@ public class UHFServiceImpl implements IUHFService {
     }
 
 
+    @Override
+    public boolean isConnected() {
+        return isConnected.get();
+    }
+
     /**
      * @Name read
      * @Params [mem,    指定存储区

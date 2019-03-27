@@ -37,6 +37,16 @@ public interface IUHFService extends ILifecycle {
         AUTO
     }
 
+    /**
+     * @Name isConnected
+     * @Return boolean
+     * @Author oz
+     * @Email 857527916@qq.com
+     * @Time 2019/1/8 16:24
+     * @Description 串口是否连接
+     */
+    boolean isConnected();
+
 
     /**
      * @Name read
